@@ -1,0 +1,7 @@
+﻿__pycache__/
+*.pyc
+.pytest_cache/
+
+# LLM response cache: contains attack prompts and model replies. Both are already public in
+# this repository, but there is no reason to commit the pairing.
+.cache/

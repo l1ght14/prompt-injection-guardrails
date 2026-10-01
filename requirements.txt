@@ -1,0 +1,4 @@
+﻿# Pinned to what was measured. The guardrails themselves need only the standard library;
+# openai is optional and only used by `eval/redteam.py --decider llm`.
+pytest>=8.0
+openai>=1.40
