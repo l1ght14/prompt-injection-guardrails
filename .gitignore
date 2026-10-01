@@ -5,3 +5,7 @@
 # LLM response cache: contains attack prompts and model replies. Both are already public in
 # this repository, but there is no reason to commit the pairing.
 .cache/
+
+# coverage data is a local build artifact
+.coverage
+htmlcov/
